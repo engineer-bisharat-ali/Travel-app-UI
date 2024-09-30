@@ -51,8 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      IconButton(onPressed: (){}, icon: Icon(Icons.menu ,color:Colors.white)),
-                      IconButton(onPressed: (){}, icon: Icon(Icons.search, color: Colors.white,)),
+                      IconButton(onPressed: (){}, icon: Icon(Icons.menu ,color:Colors.white, size: screenWidth * 0.09,)),
+                      IconButton(onPressed: (){}, icon: Icon(Icons.search, color: Colors.white,size: screenWidth * 0.09)),
                     ],
                   ),
                 ),
