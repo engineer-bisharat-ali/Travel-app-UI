@@ -101,7 +101,7 @@ class _ListviewBuilderImagesState extends State<ListviewBuilderImages> {
           child: Container(
             // Images container
             margin: const EdgeInsets.all(10),
-            width: 270,
+            width: 255,
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(15)),
             child: ClipRRect(
                 borderRadius: BorderRadius.circular(15),
